@@ -10,11 +10,11 @@
     - `git log --oneline`: shows the shorter oneline commit
 
 - `git diff`: compare current uncommited state with last know git state
-    - `git diff --staged`: runs git diff between the staging area and the last know stated
-- `git diff HEAD~<NUMBER>` : compares HEAD with commit <NUMBER> ago (relative)
+    - `git diff --staged`: runs git diff between the staging area and the last know state
+- `git diff HEAD~<NUMBER>` : compares HEAD with commit <NUMBER> (relative)
 - `git diff <HASH>` : compares HEAD with the commit in <HASH>
-- `git restore --source <HASH OR HEAD~> <FILE>`: restore file to <HASH OR HEAD~> or <FILE>
+- `git restore --source <HASH OR HEAD~> <FILE>`: restore file to <HASH OR HEAD~> to <FILE>
     - git checkout <HASH OR HEAD~> <FILE>`: restores file to <HASH OR HEAD~>
-    - `git checkout <HASH OR HEAD~>`>: if you forget the file, you end up in detachedHead State
+    - `git checkout <HASH OR HEAD~>`>: if you forget the file, you end up in detached head state
     - `git checkout main`: go back to main
     - `git switch main`: go back to main
