@@ -14,13 +14,13 @@
 - `git diff HEAD~<NUMBER>` : compares HEAD with commit <NUMBER> (relative)
 - `git diff <HASH>` : compares HEAD with the commit in <HASH>
 - `git restore --source <HASH OR HEAD~> <FILE>`: restore file to <HASH OR HEAD~> to <FILE>
-    - git checkout <HASH OR HEAD~> <FILE>`: restores file to <HASH OR HEAD~>
+    - `git checkout <HASH OR HEAD~> <FILE>`: restores file to <HASH OR HEAD~>
     - `git checkout <HASH OR HEAD~>`>: if you forget the file, you end up in detached head state
     - `git checkout main`: go back to main
     - `git switch main`: go back to main
 - `git remote add <NAME> <URL>`: add the <URL> as a remote with the name <NAME>
-- `git remote rm <NAME>`: removes the remote called <NAME>
-- `git remote -v`: look at all ther remotes you have
-- `git push <WHERE> <WHAT>`: pushes the <WHAT> branch to <WHERE>
-   - `git push origin mane`
+- `git remote rm <NAME>` : removes the remote called <NAME>
+- `git remote -v`: look at all the remotes you have
+- `git push <WHERE> <WHAT>` : pushes the <WHAT> branch to <WHERE>
+   - `git push origin main`
 
