@@ -1,3 +1,5 @@
+# Git notes
+
 - `git init`: intialize current folder as a git repository
 - `git clone <URL>`: brings the git repo from <URL> to current folder
 - `git status`: tell us what we need to know about our repository
