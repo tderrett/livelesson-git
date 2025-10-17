@@ -32,7 +32,7 @@
    - `git push origin main`
 - `git pull <WHERE> <WHAT>`: pulls the <WHAT> branch in <WHERE> to local computer
 
-## BRANCHES main commit 3
+## Branches 
 - `git branch <NAME>`: create branch <NAME> where you are (HEAD)
 - `git switch <NAME>`: move to the branch <NAME>
     - `git checkout <NAME>`: also move to the branch <NAME>
@@ -48,3 +48,5 @@
     - `git rebase --abort`: undo git rebase step
 - main commit 1
 - main commit 2
+- branch commit 1
+- branch commit 2
