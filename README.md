@@ -57,3 +57,5 @@
     - `git push <WHERE> <WHAT>`
     - To update a PR, we make the changes to the branch locally and re-`push`
 - A merge conflict can happen after a PR is issued.        
+- `git fetch` : update your git log without making any changes to your files
+    - `git fetch --prune` : update your log and also remove deleted remote branches
