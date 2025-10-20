@@ -61,3 +61,8 @@
     - `git fetch --prune` : update your log and also remove deleted remote branches
 - `git push -f <WHERE> <WHAT>`: force push to the remove <WHERE> the branch <WHAT>
     - `git push --force-with-lease <WHERE> <WHAT>`: more mindful of collaborators
+
+##  Collaborators
+
+- Add collaborators in repository settings
+- collaborators will then `git clone <URL>` to get repo on their computer 
