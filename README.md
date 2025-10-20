@@ -62,8 +62,9 @@
 - `git push -f <WHERE> <WHAT>`: force push to the remove <WHERE> the branch <WHAT>
     - `git push --force-with-lease <WHERE> <WHAT>`: more mindful of collaborators
 
-- ## Collaborators
+## Collaborators
 
 - Second person to push, needs to sync the history 
 - Add collaborators in repository settings
 - collaborators will then `git clone <URL>` to get repo on their computer 
+- Each person's branch changes are independent from one another
