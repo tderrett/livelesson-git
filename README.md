@@ -70,3 +70,8 @@
 - Each person's branch changes are independent from one another
 - Feature branches won't show conflicts until one of them is merged first
 - In the settings you can setup branch protection rules to prevent direct changes
+## Git workflows
+- Adding a collaborator
+- Branching workflow
+- Git Flow: a special type of branchin workflow
+
